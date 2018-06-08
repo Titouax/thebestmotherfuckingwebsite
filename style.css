@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+html {
+  background-color: #fefefe;
+}
+body {
+  font-family: Open Sans, Arial;
+  color: #454545;
+  font-size: 16px;
+  margin: 2em auto;
+  max-width: 800px;
+  padding: 1em;
+  line-height: 1.4;
+  text-align: justify
+}
+
+html.contrast body{
+  color: #050505;
+}
+
+html.contrast blockquote {
+  color: #11151a;
+}
+
+html.contrast blockquote:before {
+  color: #262626;
+}
+
+html.contrast a {
+  color: #0051c9;
+}
+
+html.contrast a:visited {
+  color:#7d013e;
+}
+
+html.contrast span.wr {
+  color: #800;
+}
+
+html.contrast span.mfw {
+  color: #117e69;
+}
+
+html.inverted {
+  background-color: #010101
+}
+html.inverted body {
+  color: #bababa;
+}
+
+html.inverted div#invmode {
+  color: #fff;
+  background-color: #000;
+}
+
+html.inverted blockquote {
+  color: #dad0c7;
+}
+
+html.inverted blockquote:before {
+  color: #bfbfbf;
+}
+
+html.inverted a {
+  color: #07a;
+}
+ html.inverted a:visited {
+   color: #ac5a82;
+ }
+
+html.inverted span.wr {
+  color: #c0392b;
+}
+
+html.inverted span.mfw {
+  color: #19b496;
+}
+
+a{
+  color: #07a;
+}
+
+a:visited {
+  color: #941352;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkite-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+span.citneed {
+  vertical-align: top;
+  font-size: .7em;
+  padding-left: .3em;
+}
+
+small {
+  font-size: .4;
+}
+
+p.st {
+  margin-top: -1em;
+}
+
+div.fancyPositioning div.picture-left img {
+  width: 100%
+}
+
+ul li img {height: 1em;}
